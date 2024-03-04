@@ -4,7 +4,7 @@ from mpl_toolkits.mplot3d import Axes3D
 from matplotlib.tri import Triangulation
  
 def f(x, y):
-    return np.sin(np.sqrt(x ** 2 + y ** 2))
+    return np.sin(np.sqrt(x ** 2 + y ** 
  
 x = np.linspace(-6, 6, 30)
 y = np.linspace(-6, 6, 30)
