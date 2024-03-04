@@ -8,8 +8,7 @@ def f(x, y):
  
 x = np.linspace(-6, 6, 30)
 y = np.linspace(-6, 6, 30)
-X, Y = np.meshgrid(x, y)
-Z = f(X, Y)
+X, Y = np.meshgrid(x, 
  
 tri = Triangulation(X.ravel(), Y.ravel())
  
