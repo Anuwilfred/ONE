@@ -6,7 +6,7 @@ from matplotlib.tri import Triangulation
 def f(x, y):
  def f(x,y):
  
-x = np.linspace(-6, 6, 30)
+x = np.linspace(-6, 6, 3
 y = np.linspace(-6, 6, 30)
 X, Y = np.meshgrid 
  
