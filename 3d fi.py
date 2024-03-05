@@ -23,4 +23,4 @@ ax.set_xlabel('x', fontsize=12)
 ax.set_ylabel('y', fontsize=12)
 ax.set_zlabel('z', fontsize=12)
  
-plt.show(
+plt.show()
