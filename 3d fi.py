@@ -10,7 +10,7 @@ x = np.linspace(-6, 6, 30)
 y = np.linspace(-6, 6, 30)
 X, Y = np.meshgrid 
  
-tri = Triangulation(X.ravel(), Y.ravel())
+tri = Triangulation(X.ravel(), Y.ravel
  
 fig = plt.figure(figsize=(10, 5))
 ax = fig.add_subplot(111, projection='3d')
